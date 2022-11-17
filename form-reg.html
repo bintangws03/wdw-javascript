@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Registrasi</title>
+    <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+    
+        <h2>Form Registrasi</h2>
+
+        <div class="container">
+            <form action="" onsubmit="validasi()">
+                <div class="">
+                    <label for="nama">Nama Lengkap</label>
+                    <input type="text" name="nama" id="nama">
+                </div>
+                <div class="">
+                    <label for="username">Username</label>
+                    <input type="text" name="username" id="username">
+                </div>
+                <div class="">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email">
+                </div>
+                <div class="">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password">
+                </div>
+                <div class="">
+                    <label for="no">No Telepon</label>
+                    <input type="text" name="no" id="no">
+                </div>
+                <div class="">
+                    <label for="">Jenis Kelamin</label><br>
+                    <input type="radio" id="laki" name="jenis-kelamin" value="laki">
+                    <label for="laki">Laki - Laki</label>
+                    <input type="radio" id="perempuan" name="jenis-kelamin" value="perempuan">
+                    <label for="perempuan">Perempuan</label>
+                </div>
+                <br>
+                <div class="">
+                    <label for="alamat">Alamat Website</label><br>
+                    <textarea name="alamat" id="alamat" cols="50" rows="5">
+                    </textarea>
+                </div>
+                <div class="">
+                    <button type="submit" class="tombol">Registrasi</button>
+                </div>
+            </form>
+        </div>
+
+        <script src="js/script.js"></script>
+    </body>
+</html>

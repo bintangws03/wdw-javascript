@@ -1,0 +1,41 @@
+body {
+    background: #3498db;
+    font-family: sans-serif;
+}
+
+h2 {
+    text-align: center;
+    color: #fff;;
+}
+
+.container {
+    padding: 30px;
+    margin: 10px auto;
+    width: 400px;
+    background: #fff;
+    border-radius: 3px;
+}
+
+label {
+    font-size: 15px;
+    color: #555;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+    padding: 10px;
+    width: 95%;
+    background: #efefefef;
+    border: 0;
+    font-size: 15px;
+    margin: 5px 0px;
+}
+
+.tombol {
+    background: #3498db;
+    color: #fff;
+    border: 3px;
+    padding: 5px 8px;
+}
